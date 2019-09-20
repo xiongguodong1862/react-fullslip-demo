@@ -8,13 +8,13 @@ class App extends Component {
       //navigation: true, //默认true
       //activeClass: 'active1', //默认active
       duration:500, //默认1000
-      //transverse:true,  //默认纵向false
+      transverse:true,  //默认纵向false
       navImage:[require('./assets/1.jpg'),require('./assets/2.jpg'),require('./assets/3.jpg'),require('./assets/3.jpg')], //默认无图片
       arrowNav:true, //默认无箭头 false
     };
     return (
       <div className="App">
-        <div style={{backGroundColor:'#f0f0f0',height:2000}}>123</div>
+        <div style={{backgroundColor:'salmon',height:2000}}>123</div>
         <FullSlip {...options}>
           <SlipItem style={{backgroundColor:'#C6E2FF'}}>
             page1
